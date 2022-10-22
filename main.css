@@ -1,0 +1,169 @@
+/* .navbar {
+    background: linear-gradient(to bottom, rgb(1, 53, 70), rgb(21, 96, 121), rgb(63, 132, 155), rgb(102, 144, 158));
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #022049;
+}
+
+.banner {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.banner video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.nav-link:hover::after {
+    border-bottom: 3px solid white;
+    content: "";
+    display: block;
+    width: 50%;
+    padding-bottom: 5px;
+    margin: auto;
+    margin-bottom: -8px;
+}
+
+.form-control {
+    font-size: 12px;
+}
+
+/* .fish {
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(to top, rgb(24, 44, 109),rgb(47, 98, 165),rgb(113, 159, 219));
+} */
+
+.Biota .jumbotron {
+    height: 100vh;
+    background-color: rgb(160, 186, 228);
+    color: rgb(6, 62, 107);
+    margin: 0;
+}
+
+.konten .jumbotron {
+    background: linear-gradient(to bottom, rgb(21, 66, 124), rgb(39, 90, 156), rgb(95, 138, 196), rgb(166, 196, 235), rgb(77, 119, 173), rgb(31, 79, 143));
+    min-height: 100vh;
+    margin: 0;
+}
+
+.konten .jumbotron p,
+h3 {
+    color: rgb(194, 216, 235);
+}
+
+.place .jumbotron {
+    background: linear-gradient(to bottom, rgb(161, 221, 201), rgb(206, 238, 227), rgb(142, 196, 206));
+    margin: 0;
+    min-height: 100vh;
+}
+
+.wahana .jumbotron {
+    background: linear-gradient(to bottom, rgb(142, 196, 206), rgb(159, 215, 224), rgb(170, 193, 235));
+    margin: 0;
+    height: 100vh;
+}
+
+.wahana img {
+    border-radius: 15px;
+    width: 330px;
+    height: 200px;
+}
+
+.glow .jumbotron {
+    background: linear-gradient(to bottom, rgb(170, 193, 235), rgb(200, 212, 233));
+    margin: 0;
+    height: 100vh;
+}
+
+.glow img {
+    border-radius: 15px;
+    width: 330px;
+    height: 200px;
+}
+
+.underwater .jumbotron {
+    background: linear-gradient(to bottom, rgb(200, 212, 233), rgb(156, 175, 206), rgb(177, 219, 212));
+    margin: 0;
+    height: 100vh;
+}
+
+.underwater img {
+    border-radius: 15px;
+    width: 330px;
+    height: 200px;
+}
+
+.Jellyfish .jumbotron {
+    background: linear-gradient(to bottom, rgb(177, 219, 212), rgb(191, 212, 240), rgb(138, 178, 224));
+    margin: 0;
+    height: 100vh;
+}
+
+.Jellyfish img {
+    border-radius: 15px;
+    width: 330px;
+    height: 200px;
+}
+
+.card {
+    transition: all 1s ease-in-out;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.Kuliner .jumbotron {
+    background: linear-gradient(rgb(75, 148, 190), rgb(156, 211, 219), rgb(134, 196, 224));
+    /* background: linear-gradient(to bottom, rgb(231, 231, 189), rgb(229, 238, 177), rgb(147, 202, 199)); */
+    margin: 0;
+    height: 100vh;
+}
+
+.basoka .jumbotron {
+    background-color: rgb(192, 229, 238);
+    /* background: linear-gradient(to bottom, rgb(147, 202, 199), rgb(181, 230, 180), rgb(229, 238, 177)); */
+    margin: 0;
+    min-height: 100vh;
+}
+
+.Kalaha .jumbotron {
+    background: linear-gradient(rgb(75, 148, 190), rgb(156, 211, 219), rgb(134, 196, 224));
+    /* background: linear-gradient(to bottom, rgb(229, 238, 177), rgb(233, 170, 168), rgb(219, 184, 131)); */
+    margin: 0;
+    min-height: 100vh;
+}
+
+.bandar .jumbotron {
+    background-color: rgb(192, 229, 238);
+    /* background: linear-gradient(to bottom,rgb(219, 184, 131),  rgb(228, 225, 182), rgb(201, 182, 231)); */
+    margin: 0;
+    min-height: 100vh;
+}
+
+.information .jumbotron {
+    background:linear-gradient(to bottom, rgb(164, 204, 228), rgb(195, 222, 231), rgb(161, 167, 223), rgb(195, 162, 221));
+    margin: 0;
+    min-height: 100vh;
+}
